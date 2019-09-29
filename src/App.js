@@ -1,20 +1,18 @@
 import React from 'react'
-import logo from './logo.svg'
 import Header from './components/Header'
 import Footer from './components/Footer'
-import TodoItem from './components/TodoItem'
+import TodoList from './components/TodoList'
+import TitleLogo from "./components/TitleLogo";
 import './App.css'
 
 function App() {
     return (
-    <div className="App">
-      <img src={logo} alt="logo" height="150" width="150"  />
+    <div id="app">
 
       <Header />
+      <TitleLogo />
 
-      <TodoItem />
-      <TodoItem />
-      <TodoItem />
+      <TodoList />
 
       <br/> <br/>
       <Footer />
