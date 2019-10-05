@@ -2,22 +2,31 @@ import React from 'react'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import TodoList from './components/TodoList'
-import TitleLogo from "./components/TitleLogo";
+import TitleLogo from './components/TitleLogo'
 import './App.css'
 
-function App() {
-    return (
-    <div id="app">
+class App extends React.Component {
+     constructor() {
+         super();
+         this.state = {
+             myData: "test"
+         }
+     }
 
-      <Header />
-      <TitleLogo />
+     render() {
+         return (
+             <div id="app">
 
-      <TodoList />
+                 <Header/>
+                 <TitleLogo/>
 
-      <br/> <br/>
-      <Footer />
-    </div>
-  )
+                 <TodoList/>
+
+                 <br/> <br/>
+                 <Footer/>
+             </div>
+         )
+     }
 }
 
 export default App
