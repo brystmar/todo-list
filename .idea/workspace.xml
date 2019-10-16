@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8cd71a39-0e69-4a99-8904-05a1deb289e9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TodoItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TodoItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TodoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TodoList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/todosData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todosData.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +55,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -119,7 +117,11 @@
       <workItem from="1569098134903" duration="8446000" />
       <workItem from="1569778673986" duration="12000" />
       <workItem from="1569778712173" duration="6000" />
-      <workItem from="1569782088866" duration="11088000" />
+      <workItem from="1569782088866" duration="20791000" />
+      <workItem from="1570993025410" duration="511000" />
+      <workItem from="1570993550836" duration="133000" />
+      <workItem from="1570993708997" duration="290000" />
+      <workItem from="1570994013407" duration="1908000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1569098425693</created>
@@ -142,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569799489967</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Phase 6: Apply &amp; adjust State based on events">
+      <created>1570316924789</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1570316924789</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +176,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Phase 2: Basic structure &amp; CSS" />
     <MESSAGE value="Phase 3: Render dynamic data from a static file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Phase 3: Render dynamic data from a static file" />
+    <MESSAGE value="Phase 6: Apply &amp; adjust State based on events" />
+    <option name="LAST_COMMIT_MESSAGE" value="Phase 6: Apply &amp; adjust State based on events" />
   </component>
 </project>
